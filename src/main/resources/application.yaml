@@ -1,0 +1,15 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /produto/api
+spring:
+  application:
+    name: produto
+  datasource:
+    url: jdbc:postgresql://localhost:5432/produto
+    username: postgres
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
